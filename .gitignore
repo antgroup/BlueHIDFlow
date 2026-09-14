@@ -1,0 +1,58 @@
+# PlatformIO
+.pio
+.pio_core
+
+# IDE
+.vscode/
+.idea/
+.vscode/.browse.c_cpp_db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# Environment files (contain secrets)
+.env
+*.env.local
+
+# Device config (contains personal credentials)
+# Copy config.example.h to config.h and customize
+config.h
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test screenshots
+test/*.jpg
+test/*.png
+
+# Samples
+samples/
+
+# Skybase
+.skybase/
